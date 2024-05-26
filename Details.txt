@@ -83,3 +83,29 @@ Topics:
       BE URL -> https://tamil-combined-node-project.onrender.com
 
   Note: *** Do Not Push node_modules or .env to github ***
+
+Task:
+
+  Day 36:
+
+    Deploy all the below,
+
+      Simple FE
+      Simple BE
+      Simple Coud DB
+
+      All the above items should be able to work properly in cloud like how we discussed in the session,
+
+      Cloud FE <-> Cloud BE <-> Cloud DB
+
+      Approach Step-By-Step:
+
+        local:
+          1. BE <-> DB
+          2. FE <-> BE <-> DB
+          3. Use .env file in local for sensitive information
+
+        Cloud:
+          1. BE <-> DB
+          2. FE <-> BE <-> DB
+          3. load proper environment variables on cloud instances
